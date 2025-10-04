@@ -1,7 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/d-DorLAf)
 # minigame-1
 ## Devlog
-Write your Devlog here.
+One way to think about the relationship between Components, GameObjects, and Scenes is to think of them like a nesting doll with three layers. The biggest doll in this example would be our Scenes. Scenes bring together the individual parts of a game to actually create the final product. These individual parts, or GameObjects, are our next layer in the nesting doll analogy. These are the parts of the game that the player interacts with. GameObjects can be something like the character you are playing, or a menu that you interact with. Within GameObjects though, we have the final nesting doll, the Components. Components are what makes our GameObjects function the way they do. For example, in something like a platformer, your character wouldn't be able to run without having a component that allowed them to do so. To summarize the nesting doll analogy, Components our are smallest doll that are inside the GameObjects doll, which are inside the Scenes doll. All these parts come together as one cohesive object to create a game.
 ## Open-Source Assets
 - Starter first-person assets: https://assetstore.unity.com/packages/essentials/starter-assets-firstperson-updates-in-new-charactercontroller-pa-196525
 - Low poly platformer kit: https://assetstore.unity.com/packages/3d/environments/lowpoly-platformer-kit-free-modular-stylized-blocks-319018 
